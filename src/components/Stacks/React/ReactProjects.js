@@ -1,5 +1,6 @@
 import React from "react";
 import "./ReactProjects.css";
+import Card from "../../Card";
 
 const ReactProjects = () => {
   return (
@@ -10,9 +11,7 @@ const ReactProjects = () => {
           alt="React"
         />
       </div>
-
-      <div className="Projects_Content">
-        <h3> Gourmet and Place Sharing Social App - MERN</h3>
+      <Card title="Gourmet and Place Sharing Social App - MERN">
         <li>
           Built frontend with reusable components like input, form, button, map,
           card, backdrop, validators, navigation, side drawer, and so on.
@@ -27,11 +26,28 @@ const ReactProjects = () => {
           include hashing the password, JWT, middleware protection.
         </li>
         <li>
-          Stacks: Javascript, React.js, Express.js, Node.js, Mongoose, postman,
-          Mongo Atlas,
+          <mark>
+            Stacks: Javascript, React.js, Express.js, Node.js, Mongoose,
+            postman, Mongo Atlas
+          </mark>
         </li>
-        <p></p>
-      </div>
+      </Card>
+      <Card title="Movie Ranking Application - MERN">
+        <li>
+          Developing new user-facing features, building reusable components
+          about pagination, filtering, routing and sorting for future use.
+          <mark>(Javascript, React.js, Bootstrap 4, CSS)</mark>
+        </li>
+        <li>
+          Developing micro backend services for authentication and authorization
+          with the databases.{" "}
+          <mark>(Node.js, Express, MongoDB, JSON, Sentry)</mark>{" "}
+        </li>
+        <li>
+          Deploying the full-stack application.{" "}
+          <mark>(Mlab, MongleDB, Heroku)</mark>
+        </li>
+      </Card>
     </React.Fragment>
   );
 };

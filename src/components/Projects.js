@@ -8,6 +8,7 @@ import JavascriptProject from "./Stacks/Javascript/JavascriptProject";
 import NodejsProject from "./Stacks/Nodejs/NodejsProject";
 import PythonProject from "./Stacks/Python/PythonProject";
 import AndroidProject from "./Stacks/Android/AndroidProject";
+import ComputerVision from "./Stacks/ComputerVision/ComputerVision";
 
 const Projects = (props) => {
   return (
@@ -20,6 +21,7 @@ const Projects = (props) => {
       {props.status === "Node.js" && <NodejsProject />}
       {props.status === "Python" && <PythonProject />}
       {props.status === "Android" && <AndroidProject />}
+      {props.status === "ComputerVision" && <ComputerVision />}
     </div>
   );
 };

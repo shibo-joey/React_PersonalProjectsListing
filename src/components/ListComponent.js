@@ -44,6 +44,11 @@ const ListComponent = (props) => {
       imagePath:
         "https://www.freepngimg.com/thumb/android/30965-6-android-file.png",
     },
+    {
+      name: "ComputerVision",
+      imagePath:
+        "https://p1.pxfuel.com/preview/1003/622/364/eyeglasses-smartphone-business-mobile-gadget-communication.jpg",
+    },
   ];
 
   return (
@@ -51,6 +56,7 @@ const ListComponent = (props) => {
       <div className="Items">
         {stacks.map((stack) => (
           <ListItem
+            key={stack.name}
             imagePath={stack.imagePath}
             clicked={() => props.onItemClicked(stack.name)}
           >

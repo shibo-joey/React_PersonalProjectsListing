@@ -1,0 +1,7 @@
+.Container {
+  background-color: aliceblue;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 800px;
+  margin-top: 50px;
+}

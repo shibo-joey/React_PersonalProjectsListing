@@ -1,0 +1,33 @@
+.ItemContainer {
+  background-color: #e5e5e5;
+  box-sizing: border-box;
+  margin: 5px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 1px -1px #d3d3d3;
+  color: black;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  cursor: pointer;
+  height: 37px;
+  padding-left: 13px;
+  padding-right: 13px;
+  font-size: 17px;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.ItemContainer img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.Justify-Content {
+  justify-content: center;
+  align-self: center;
+}

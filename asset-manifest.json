@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/React_PersonalProjectsListing/static/css/main.5474ac1a.chunk.css",
+    "main.js": "/React_PersonalProjectsListing/static/js/main.8702d2d4.chunk.js",
+    "main.js.map": "/React_PersonalProjectsListing/static/js/main.8702d2d4.chunk.js.map",
+    "runtime-main.js": "/React_PersonalProjectsListing/static/js/runtime-main.57d7c1ee.js",
+    "runtime-main.js.map": "/React_PersonalProjectsListing/static/js/runtime-main.57d7c1ee.js.map",
+    "static/css/2.ecf09bb4.chunk.css": "/React_PersonalProjectsListing/static/css/2.ecf09bb4.chunk.css",
+    "static/js/2.cde44ad2.chunk.js": "/React_PersonalProjectsListing/static/js/2.cde44ad2.chunk.js",
+    "static/js/2.cde44ad2.chunk.js.map": "/React_PersonalProjectsListing/static/js/2.cde44ad2.chunk.js.map",
+    "index.html": "/React_PersonalProjectsListing/index.html",
+    "precache-manifest.251d40bdc8585c7f740102c68f460b23.js": "/React_PersonalProjectsListing/precache-manifest.251d40bdc8585c7f740102c68f460b23.js",
+    "service-worker.js": "/React_PersonalProjectsListing/service-worker.js",
+    "static/css/2.ecf09bb4.chunk.css.map": "/React_PersonalProjectsListing/static/css/2.ecf09bb4.chunk.css.map",
+    "static/css/main.5474ac1a.chunk.css.map": "/React_PersonalProjectsListing/static/css/main.5474ac1a.chunk.css.map",
+    "static/js/2.cde44ad2.chunk.js.LICENSE.txt": "/React_PersonalProjectsListing/static/js/2.cde44ad2.chunk.js.LICENSE.txt",
+    "static/media/burgerimg.PNG": "/React_PersonalProjectsListing/static/media/burgerimg.b0e2dcda.PNG",
+    "static/media/App.css": "/React_PersonalProjectsListing/static/media/eclipse-1492818.fa59f98c.jpg",
+    "static/media/lockimg.PNG": "/React_PersonalProjectsListing/static/media/lockimg.131245ac.PNG",
+    "static/media/mernimg.PNG": "/React_PersonalProjectsListing/static/media/mernimg.ce100dff.PNG",
+    "static/media/por2img.PNG": "/React_PersonalProjectsListing/static/media/por2img.593b90f1.PNG",
+    "static/media/porfolioimg.PNG": "/React_PersonalProjectsListing/static/media/porfolioimg.5be29189.PNG",
+    "static/media/projectListimg.PNG": "/React_PersonalProjectsListing/static/media/projectListimg.c50b491a.PNG",
+    "static/media/vidlyimg.PNG": "/React_PersonalProjectsListing/static/media/vidlyimg.01896079.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57d7c1ee.js",
+    "static/css/2.ecf09bb4.chunk.css",
+    "static/js/2.cde44ad2.chunk.js",
+    "static/css/main.5474ac1a.chunk.css",
+    "static/js/main.8702d2d4.chunk.js"
+  ]
+}

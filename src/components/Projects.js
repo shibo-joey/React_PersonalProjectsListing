@@ -9,19 +9,49 @@ import NodejsProject from "./Stacks/Nodejs/NodejsProject";
 import PythonProject from "./Stacks/Python/PythonProject";
 import AndroidProject from "./Stacks/Android/AndroidProject";
 import ComputerVision from "./Stacks/ComputerVision/ComputerVision";
+import ArduinoProject from "./Stacks/Arduino/Arduino";
+import RobotProject from "./Stacks/Robot/Robot";
+import FPGA from "./Stacks/FPGA/FPGA";
+import Paper from "./Stacks/Paper/Paper";
 
 const Projects = (props) => {
+  const hideDetails = () => {
+    props.setStatus("");
+  };
   return (
     <div className="Container">
-      {props.status === "" || (props.status === "React" && <ReactProjects />)}
-      {props.status === "Angular" && <AngularProjects />}
-      {props.status === "React_Native" && <ReactNativeProject />}
-      {props.status === "Java" && <JavaProject />}
-      {props.status === "Javascript" && <JavascriptProject />}
-      {props.status === "Node.js" && <NodejsProject />}
-      {props.status === "Python" && <PythonProject />}
-      {props.status === "Android" && <AndroidProject />}
-      {props.status === "ComputerVision" && <ComputerVision />}
+      {props.status === "" ||
+        (props.status === "React" && (
+          <ReactProjects setStatus={props.setStatus} />
+        ))}
+      {props.status === "Angular" && (
+        <AngularProjects hideDetails={hideDetails} />
+      )}
+      {props.status === "React_Native" && (
+        <ReactNativeProject hideDetails={hideDetails} />
+      )}
+      {props.status === "Java" && <JavaProject hideDetails={hideDetails} />}
+      {props.status === "Javascript" && (
+        <JavascriptProject hideDetails={hideDetails} />
+      )}
+      {props.status === "Node.js" && (
+        <NodejsProject hideDetails={hideDetails} />
+      )}
+      {props.status === "Python" && <PythonProject hideDetails={hideDetails} />}
+      {props.status === "Android" && (
+        <AndroidProject hideDetails={hideDetails} />
+      )}
+      {props.status === "ComputerVision" && (
+        <ComputerVision hideDetails={hideDetails} />
+      )}
+      {props.status === "Arduino" && (
+        <ArduinoProject hideDetails={hideDetails} />
+      )}
+      {props.status === "Robotic Control" && (
+        <RobotProject hideDetails={hideDetails} />
+      )}
+      {props.status === "FPGA" && <FPGA hideDetails={hideDetails} />}
+      {props.status === "Paper" && <Paper hideDetails={hideDetails} />}
     </div>
   );
 };

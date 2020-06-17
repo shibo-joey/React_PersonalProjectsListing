@@ -2,9 +2,29 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  border-style: none;
+  margin-top: 15px;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+  display: block;
+  margin-left: 47%;
+}
+
+.ImageContainer img:hover {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   vertical-align: middle;
   border-style: none;
   margin-top: 15px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.textContainer p {
+  font-size: 15px;
+  color: grey;
+  margin-top: 18px;
 }
 
 .Projects_Content {
@@ -15,4 +35,8 @@
   font-size: smaller;
   text-align: left;
   margin-left: 5px;
+}
+
+.ImageContainer {
+  flex-direction: row;
 }

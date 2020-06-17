@@ -49,6 +49,25 @@ const ListComponent = (props) => {
       imagePath:
         "https://p1.pxfuel.com/preview/1003/622/364/eyeglasses-smartphone-business-mobile-gadget-communication.jpg",
     },
+    {
+      name: "Arduino",
+      imagePath:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Antu_arduino-icon-small.svg/512px-Antu_arduino-icon-small.svg.png",
+    },
+    {
+      name: "Robotic Control",
+      imagePath: "http://pngimg.com/uploads/robot/robot_PNG47.png",
+    },
+    {
+      name: "FPGA",
+      imagePath:
+        "https://farm6.staticflickr.com/5691/30758650575_6524b6ce0b_b.jpg",
+    },
+    {
+      name: "Paper",
+      imagePath:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVunz9O8bA3oaVqgHFSXCo64lq5h7Fn8MCvY2utQCQ1ycEGqK_&usqp=CAU",
+    },
   ];
 
   return (

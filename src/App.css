@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +21,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+  /* background-image: url("https://live.staticflickr.com/8644/16729590606_93df66ecb3_b.jpg"); */
+  background-image: url("./Img/eclipse-1492818.jpg");
+
+  min-width: 100%;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .App-link {
@@ -35,4 +44,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App h1:hover {
+  color: black;
+}
+
+.flicking {
+  height: 200px;
+  width: 360px;
+  justify-content: center;
+  background-color: #a7a0a0;
+  top: 50%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.showImage img {
+  height: 180px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.showImage {
+  height: 180px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

@@ -9,6 +9,7 @@ import project4 from "./Img/por2img.PNG";
 import project5 from "./Img/mernimg.PNG";
 import project6 from "./Img/burgerimg.PNG";
 import project7 from "./Img/vidlyimg.PNG";
+import project8 from "./Img/todoimg.PNG";
 
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
@@ -85,6 +86,9 @@ function App() {
               </div>
               <div className="showImage">
                 <img src={project7} alt="project1"></img>
+              </div>
+              <div className="showImage">
+                <img src={project8} alt="project8"></img>
               </div>
             </Flicking>
             <p style={{ color: "white", fontSize: "15px" }}>

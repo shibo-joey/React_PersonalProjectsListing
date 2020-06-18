@@ -1,0 +1,20 @@
+.Details {
+  color: rgb(126, 116, 31);
+  font-size: 20px;
+  text-align: left;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.Containner h1 {
+  color: black;
+  font-size: xx-large;
+}
+
+.Containner h1:hover {
+  color: #1e88e5;
+}
+
+.Containner {
+  margin-bottom: 50px;
+}

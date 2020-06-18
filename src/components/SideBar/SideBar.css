@@ -1,0 +1,23 @@
+.SideBar {
+  z-index: 1001;
+  position: fixed;
+  left: 0;
+  top: calc(50% - (275px / 2));
+  width: 55px;
+  height: 275px;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.IconHolder {
+  height: 30px;
+  margin: 38px;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+  display: block;
+}
+.IconHolder:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  vertical-align: middle;
+}

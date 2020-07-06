@@ -60,16 +60,25 @@
 }
 
 .showImage img {
-  height: 180px;
-  width: 300px;
+  height: 210px;
+  width: 395px;
   border-radius: 8px;
 }
 
 .showImage {
-  height: 180px;
-  margin: 0;
-  position: absolute;
+  height: 210px;
+  width: 395px;
+  display: inline-block;
+  margin: 0 auto;
   top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+}
+
+.movingBar {
+  height: 210px;
+  width: 395px;
+  text-align: center;
+}
+
+.buttonstyle {
+  margin-top: 120px;
 }

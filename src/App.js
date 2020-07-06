@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
+
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
 import ListComponent from "./components/ListComponent";
 import Projects from "./components/Projects";
 import project2 from "./Img/projectListimg.PNG";
@@ -35,7 +39,34 @@ function App() {
 
         {stackStatus === "" && (
           <>
-            <Flicking
+            <Carousel showArrows={true} className="movingBar">
+              <div className="showImage">
+                <img src={project1} alt="project1"></img>
+              </div>
+              <div className="showImage">
+                <img src={project2} alt="project1"></img>
+              </div>
+              <div className="showImage">
+                <img src={project3} alt="project1"></img>
+              </div>
+              <div className="showImage">
+                <img src={project4} alt="project1"></img>
+              </div>
+              <div className="showImage">
+                <img src={project5} alt="project1"></img>
+              </div>
+              <div className="showImage">
+                <img src={project6} alt="project1"></img>
+              </div>
+              <div className="showImage">
+                <img src={project7} alt="project1"></img>
+              </div>
+              <div className="showImage">
+                <img src={project8} alt="project8"></img>
+              </div>
+            </Carousel>
+
+            {/* <Flicking
               tag="div"
               viewportTag="div"
               cameraTag="div"
@@ -93,14 +124,16 @@ function App() {
             </Flicking>
             <p style={{ color: "white", fontSize: "15px" }}>
               &larr; try to slide &rarr;
-            </p>
-            <AwesomeButton
-              size="medium"
-              type="primary"
-              href="https://shibo-joey.github.io/"
-            >
-              My Story
-            </AwesomeButton>
+            </p> */}
+            <div className="buttonstyle">
+              <AwesomeButton
+                size="medium"
+                type="primary"
+                href="https://shibo-joey.github.io/"
+              >
+                My Story
+              </AwesomeButton>
+            </div>
           </>
         )}
       </header>
